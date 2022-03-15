@@ -16,11 +16,11 @@ public class JpaMain {
         et.begin();
 
         try {
-            Order order = new Order();
-            order.addOrderItem(new OrderItem());
-
-            OrderItem orderItem = new OrderItem();
-            orderItem.setOrder(order);
+//            Order order = new Order();
+//            order.addOrderItem(new OrderItem());
+//
+//            OrderItem orderItem = new OrderItem();
+//            orderItem.setOrder(order);
 
             et.commit();
         } catch (Exception e) {
